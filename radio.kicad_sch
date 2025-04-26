@@ -1485,6 +1485,16 @@
 		)
 		(uuid "f06f2cd4-5e25-4b77-b54c-681071265818")
 	)
+	(text "TOD: implement new chybechev filter"
+		(exclude_from_sim no)
+		(at 58.166 99.314 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "910c5b45-8022-4cc9-a521-22096e29738b")
+	)
 	(text "50ohm antenna must be used"
 		(exclude_from_sim no)
 		(at 195.58 68.072 0)

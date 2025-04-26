@@ -1680,6 +1680,126 @@
 				)
 			)
 		)
+		(symbol "power:+BATT"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+BATT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+BATT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+BATT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+BATT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1802,24 +1922,8 @@
 		(uuid "50218022-c09d-4c15-ba78-ff9878643982")
 	)
 	(no_connect
-		(at 49.53 85.09)
-		(uuid "797b5c8e-3aec-4e3e-9389-b50cbbdcb465")
-	)
-	(no_connect
-		(at 49.53 104.14)
-		(uuid "81de8d30-72d9-4a8b-9943-6c82291a1df8")
-	)
-	(no_connect
 		(at 163.83 101.6)
 		(uuid "a1f0dcb2-832e-4793-b421-c5bd2543be4e")
-	)
-	(no_connect
-		(at 49.53 76.2)
-		(uuid "a1f6b75c-fda6-4c95-83d7-3e46574468b6")
-	)
-	(no_connect
-		(at 49.53 95.25)
-		(uuid "f431e9f1-04e3-4548-885a-55be1ea25355")
 	)
 	(wire
 		(pts
@@ -4624,6 +4728,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 49.53 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5aaaa92-9abd-4af7-8931-a209cb7f3fc9")
+		(property "Reference" "#PWRr04"
+			(at 53.34 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+ESC_5V"
+			(at 48.26 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07595e70-1845-420d-93e8-957d76a5f6fe")
+		)
+		(instances
+			(project "RTLS_VIC"
+				(path "/52945f31-6668-4093-a729-6e60f954b598/3943121a-fa5d-4ebf-b59e-9c4b09bc85dd"
+					(reference "#PWRr04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 104.14 30.48 0)
 		(unit 1)
@@ -4818,6 +4988,138 @@
 			(project "RTLS_VIC"
 				(path "/52945f31-6668-4093-a729-6e60f954b598/3943121a-fa5d-4ebf-b59e-9c4b09bc85dd"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 49.53 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c49d04e1-aaf7-430d-9171-840b6d136289")
+		(property "Reference" "#PWRr03"
+			(at 53.34 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+ESC_5V"
+			(at 48.26 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "058e4b58-72eb-4425-87f6-bc66bf5003df")
+		)
+		(instances
+			(project "RTLS_VIC"
+				(path "/52945f31-6668-4093-a729-6e60f954b598/3943121a-fa5d-4ebf-b59e-9c4b09bc85dd"
+					(reference "#PWRr03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 49.53 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d52aea16-070b-46a3-b331-4dc389e76567")
+		(property "Reference" "#PWRr06"
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+ESC_5V"
+			(at 48.26 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c156778-6f85-4b82-9922-9ec9676a88c7")
+		)
+		(instances
+			(project "RTLS_VIC"
+				(path "/52945f31-6668-4093-a729-6e60f954b598/3943121a-fa5d-4ebf-b59e-9c4b09bc85dd"
+					(reference "#PWRr06")
 					(unit 1)
 				)
 			)
@@ -5154,6 +5456,72 @@
 			(project "RTLS_VIC"
 				(path "/52945f31-6668-4093-a729-6e60f954b598/3943121a-fa5d-4ebf-b59e-9c4b09bc85dd"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 49.53 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdcfcec0-0fe3-4ce4-9ad6-4e5690abf571")
+		(property "Reference" "#PWRr05"
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+ESC_5V"
+			(at 48.26 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0ddf877-7f05-4623-b03e-9bdd3bdda4fa")
+		)
+		(instances
+			(project "RTLS_VIC"
+				(path "/52945f31-6668-4093-a729-6e60f954b598/3943121a-fa5d-4ebf-b59e-9c4b09bc85dd"
+					(reference "#PWRr05")
 					(unit 1)
 				)
 			)

@@ -8101,13 +8101,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 184.15 134.6199 90)
+		(property "Value" "+ESC_5V"
+			(at 186.69 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
