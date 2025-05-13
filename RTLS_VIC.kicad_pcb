@@ -1387,7 +1387,7 @@
 			(uuid "bc8e62c8-68ce-4a38-af2a-109a85ac7c1d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 360)
+			(at 0 3.81 0)
 			(layer "F.Fab")
 			(uuid "8e3c8253-1bca-41ec-bf3c-14d1d6b0ed98")
 			(effects
@@ -1884,7 +1884,7 @@
 		(uuid "2c001485-51f3-4400-99a5-f97ffeeb28ec")
 		(at 71.975 104.295)
 		(property "Reference" "X1"
-			(at 0 -4.85 360)
+			(at 0 -4.85 0)
 			(layer "F.SilkS")
 			(uuid "88f08fef-a90d-459a-bf9a-33c7fd9a6eac")
 			(effects
@@ -1895,7 +1895,7 @@
 			)
 		)
 		(property "Value" "XL2EL89COI-111YLC-26M"
-			(at 0 4.85 360)
+			(at 0 4.85 0)
 			(layer "F.Fab")
 			(uuid "4f985ba5-4d8d-4894-9886-c2e25693b2ea")
 			(effects
@@ -1906,7 +1906,7 @@
 			)
 		)
 		(property "Footprint" "lib:CRYSTAL-SMD_4P-L3.2-W2.5-BL_SIT8008BI"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "04d30fdc-eee5-4908-9193-7b8352746210")
@@ -1918,7 +1918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "054089d3-00f4-44a6-8160-c960c1c759be")
@@ -1930,7 +1930,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c950a761-3af6-49ec-84d2-cf66dd851f12")
@@ -2032,7 +2032,7 @@
 			(uuid "89d2ee99-7bb4-4140-9a65-d1703c534dd0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "8c64b40a-a2c9-4522-b0ff-c3f97a7ab037")
 			(effects
@@ -4154,7 +4154,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "2cfe3f02-0912-4d34-b038-26efc64d3984")
 			(effects
@@ -4165,7 +4165,7 @@
 			)
 		)
 		(property "Value" "36k5"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "70032dc8-b638-4fae-a634-bf54686c8005")
 			(effects
@@ -4333,7 +4333,7 @@
 			(uuid "4fd70152-fe55-4c2d-b9e8-49db6344fe88")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "dafde57d-ca49-418e-a9ed-5551e6495dc4")
 			(effects
@@ -4828,7 +4828,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "2b051f68-74eb-436f-ba5f-fee8339ce6b1")
 			(effects
@@ -4839,7 +4839,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "df0b7254-407c-4ff8-a181-96764e5c5eaa")
 			(effects
@@ -5007,7 +5007,7 @@
 			(uuid "602e17a9-77c5-433c-bfc6-49374389997d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "d76738c8-662d-4730-9ab4-641dedaca94f")
 			(effects
@@ -8360,7 +8360,7 @@
 		(uuid "d17960f1-00ed-4fdd-a77c-ca6ee39f13c1")
 		(at 81.925 111.295 180)
 		(property "Reference" "SW1"
-			(at 0 -5.85 360)
+			(at 0 -5.85 0)
 			(layer "F.SilkS")
 			(uuid "b7b7b7fa-f134-4197-854d-34e5d87ca721")
 			(effects
@@ -8371,7 +8371,7 @@
 			)
 		)
 		(property "Value" "TS-1187A-B-A-B"
-			(at 0 5.85 360)
+			(at 0 5.85 0)
 			(layer "F.Fab")
 			(uuid "277441ff-f6c8-4361-8363-98a6d8dbe965")
 			(effects
@@ -8382,7 +8382,7 @@
 			)
 		)
 		(property "Footprint" "lib:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a8450d6a-08df-435c-a22c-66eb3e7ba269")
@@ -8394,7 +8394,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XKB-Enterprise-TS-1187-B-A-A_C318884.html"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "956e2c7a-48a3-47d6-bae7-adc28d1a172a")
@@ -8406,7 +8406,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "870d1b3b-cefa-45af-b06b-d0c7ac14d725")
@@ -8617,7 +8617,7 @@
 			(uuid "02978545-b96f-45cb-bd98-7f1a54801d7a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "337faf88-0750-45d0-affb-7312abc2d7bc")
 			(effects
@@ -12149,7 +12149,7 @@
 		)
 		(fp_arc
 			(start -0.284363 -0.550038)
-			(mid -0.277818 -1.049991)
+			(mid -0.277826 -1.049991)
 			(end -0.28 -0.55)
 			(stroke
 				(width 0.1)
@@ -12259,7 +12259,7 @@
 	)
 	(gr_circle
 		(center 94.25 92.725)
-		(end 127.25 92.725)
+		(end 129.25 92.725)
 		(stroke
 			(width 0.05)
 			(type default)
