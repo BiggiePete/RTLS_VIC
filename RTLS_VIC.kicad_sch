@@ -4761,6 +4761,28 @@
 			)
 		)
 	)
+	(global_label "DEBUG_BTN_1"
+		(shape input)
+		(at 106.68 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57654695-216f-4ad5-bf05-e83717718be6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.6675 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SWCLK"
 		(shape input)
 		(at 86.36 52.07 90)
