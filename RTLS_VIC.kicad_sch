@@ -4074,6 +4074,10 @@
 		(uuid "388fe93e-b57b-4c54-9e00-46fc06ef4eda")
 	)
 	(no_connect
+		(at 106.68 80.01)
+		(uuid "3f63471b-9d53-41c3-9222-0594c9592420")
+	)
+	(no_connect
 		(at 81.28 52.07)
 		(uuid "5880881b-3f16-480d-aa8c-49784ecd125b")
 	)
@@ -4140,10 +4144,6 @@
 	(no_connect
 		(at 262.89 36.83)
 		(uuid "d01017b6-846a-4ca8-a273-67890c5fd503")
-	)
-	(no_connect
-		(at 66.04 130.81)
-		(uuid "d4d3a7e3-1565-41e0-8e1a-c8a1cd81fb9a")
 	)
 	(wire
 		(pts
@@ -5618,6 +5618,28 @@
 			)
 		)
 	)
+	(global_label "DEBUG_NSS"
+		(shape input)
+		(at 66.04 130.81 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7b6ae83-ed3b-45a4-a210-badbe490a55b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.04 144.8018 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LSM6_INT1"
 		(shape output)
 		(at 143.51 182.88 180)
@@ -5634,28 +5656,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DEBUG_NSS"
-		(shape input)
-		(at 106.68 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "be662f82-cd1a-4a12-907e-ab31701421fc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.6718 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
