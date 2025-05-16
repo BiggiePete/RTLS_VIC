@@ -4114,6 +4114,10 @@
 		(uuid "9ff4fae4-59b0-49e0-ab1c-d4e2cd9e1cbc")
 	)
 	(no_connect
+		(at 73.66 130.81)
+		(uuid "a98a6fd6-1ec9-4833-80e3-f41ca085ec70")
+	)
+	(no_connect
 		(at 73.66 52.07)
 		(uuid "aeb6331a-a56a-4321-84c5-5d8a2a1bab05")
 	)
@@ -5446,26 +5450,6 @@
 			)
 		)
 	)
-	(global_label "BMP581_INT"
-		(shape output)
-		(at 73.66 130.81 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8e18f140-3fed-45c5-b0e8-b1ec868e6e08")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.66 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LED_DEBUG_3"
 		(shape input)
 		(at 106.68 102.87 0)
@@ -5984,26 +5968,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BMP581_INT"
-		(shape output)
-		(at 143.51 177.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ff41d7ea-7782-40cc-ba28-3be3a0dab5ad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.51 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -12094,16 +12058,6 @@
 				(justify left)
 			)
 			(uuid "6cf39e0a-0b71-41ae-b899-a85e235e9e69")
-		)
-		(pin "BMP581_INT" output
-			(at 143.51 177.8 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "38881f6f-71e7-4f5b-876f-e594827f8501")
 		)
 		(pin "LSM6_INT1" output
 			(at 143.51 182.88 180)
