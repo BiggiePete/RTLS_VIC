@@ -9936,7 +9936,7 @@
 		(uuid "c5331dfc-a9e0-42d1-9003-138d3e24240f")
 		(at 156.159 97.475)
 		(property "Reference" "U3"
-			(at 2.9 0.05 360)
+			(at 2.9 0.05 0)
 			(layer "F.SilkS")
 			(uuid "cab2430e-5d16-4681-9597-5a0a14c864f3")
 			(effects
@@ -9947,7 +9947,7 @@
 			)
 		)
 		(property "Value" "ICM-42688-P"
-			(at 0 5.01 360)
+			(at 0 5.01 0)
 			(layer "F.Fab")
 			(uuid "fef52f43-3e35-4f2c-8ae7-2175007c83c7")
 			(effects
@@ -9958,7 +9958,7 @@
 			)
 		)
 		(property "Footprint" "lib2:LGA-14_L3.0-W2.5-P0.50-TL"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "76bb0417-436b-4bbe-854c-2d2f0b32e221")
@@ -9970,7 +9970,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a4b297d4-4cbe-498a-a37d-7c7236c68a7e")
@@ -9982,7 +9982,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "854d5e96-bf59-4d3a-a21d-f366ef309035")
@@ -10124,7 +10124,7 @@
 			(uuid "288e6060-2c6c-4c0b-a963-fa585c6bf126")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "fdefefd6-4983-4b8d-b255-abc9f4a5c98f")
 			(effects
@@ -13395,7 +13395,7 @@
 		(uuid "fbcacf28-6e36-45ce-8964-af973b4bdfdd")
 		(at 165.534 82.475 180)
 		(property "Reference" "U4"
-			(at 2.6 0.65 360)
+			(at 2.6 0.65 0)
 			(layer "F.SilkS")
 			(uuid "8339fa09-2eee-4b38-879e-cc2d9affcbe3")
 			(effects
@@ -13406,7 +13406,7 @@
 			)
 		)
 		(property "Value" "GZP6816D"
-			(at 0 4.73 360)
+			(at 0 4.73 0)
 			(layer "F.Fab")
 			(uuid "6bb9f7c2-8946-412c-9396-d17bf42c7900")
 			(effects
@@ -13417,7 +13417,7 @@
 			)
 		)
 		(property "Footprint" "lib2:SENSOR-SMD_XGZP6816D"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f5deec4b-2158-41a2-8e24-cafd13e00bfd")
@@ -13429,7 +13429,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2209210930_Sencoch-Semiconductor-GZP6816D_C3038127.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "49b4872b-4a69-48c7-a0de-4e1834a1ebf5")
@@ -13441,7 +13441,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8b74f587-d220-4141-ab29-6a306596980b")
@@ -13553,7 +13553,7 @@
 			(uuid "f00e9f9d-56a2-4c0e-8ddb-9e99d36b42a3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "55390553-dce4-4ab1-9068-230e7f0421ff")
 			(effects
