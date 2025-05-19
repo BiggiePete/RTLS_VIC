@@ -2556,6 +2556,12 @@
 		)
 	)
 	(junction
+		(at 38.1 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04ea5b7c-5825-468c-a1f8-4f1471ff19f1")
+	)
+	(junction
 		(at 255.27 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2696,6 +2702,16 @@
 			(type default)
 		)
 		(uuid "c61fd249-50a9-4c20-9e6c-90d5451a2eb7")
+	)
+	(wire
+		(pts
+			(xy 38.1 35.56) (xy 52.07 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c780a78f-9e86-446a-87e2-d5631cd04104")
 	)
 	(wire
 		(pts
@@ -5192,6 +5208,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 38.1 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d9f1955-f9b2-4880-88c1-99d6ccca0b30")
+		(property "Reference" "C7"
+			(at 41.91 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 41.91 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 39.0652 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 38.1 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "996ac584-cd09-4e99-805d-673b6ce22e4c")
+		)
+		(pin "1"
+			(uuid "706d4294-df6e-434d-b88c-a728e58357b4")
+		)
+		(instances
+			(project "RTLS_VIC"
+				(path "/52945f31-6668-4093-a729-6e60f954b598/3943121a-fa5d-4ebf-b59e-9c4b09bc85dd"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 49.53 109.22 270)
 		(unit 1)
@@ -6022,7 +6108,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 52.07 35.56 90)
+		(at 38.1 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6031,7 +6117,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd7331e5-089e-4b20-8a22-cde259d154ce")
 		(property "Reference" "#PWR043"
-			(at 55.88 35.56 0)
+			(at 38.1 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6040,7 +6126,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 48.26 35.5599 90)
+			(at 40.64 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6049,7 +6135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 35.56 0)
+			(at 38.1 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6058,7 +6144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 35.56 0)
+			(at 38.1 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6067,7 +6153,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 52.07 35.56 0)
+			(at 38.1 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6414,6 +6500,72 @@
 			(project "RTLS_VIC"
 				(path "/52945f31-6668-4093-a729-6e60f954b598/3943121a-fa5d-4ebf-b59e-9c4b09bc85dd"
 					(reference "#PWRr06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5327515-4678-44c4-bebd-853b5c217017")
+		(property "Reference" "#PWR053"
+			(at 38.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "229dfc10-689d-4a99-b858-4c5ab2f838e8")
+		)
+		(instances
+			(project "RTLS_VIC"
+				(path "/52945f31-6668-4093-a729-6e60f954b598/3943121a-fa5d-4ebf-b59e-9c4b09bc85dd"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
