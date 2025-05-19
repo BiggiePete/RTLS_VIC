@@ -11432,7 +11432,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C7"
-			(at 0.9 -1.2 360)
+			(at 0.9 -1.2 0)
 			(layer "F.SilkS")
 			(uuid "1596bf9d-f94a-4061-9170-81a1c9dd7d5b")
 			(effects
@@ -11443,7 +11443,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "f1427ddb-751c-4411-9677-b37de1753f7e")
 			(effects
@@ -11610,7 +11610,7 @@
 			(uuid "ce0974b5-2cab-4cf5-af57-47211eb5fe94")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f9bd1932-f122-4845-831d-c54504f02dca")
 			(effects
@@ -18875,6 +18875,39 @@
 				)
 			)
 		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
+		(uuid "8dab3af0-cdbc-4bd1-82b4-d45fb976791c")
+		(pts
+			(xy 120.884 92.775) (xy 190.884 92.775)
+		)
+		(height -37.7)
+		(gr_text "70.0000 mm"
+			(at 155.884 53.925 0)
+			(layer "Cmts.User")
+			(uuid "8dab3af0-cdbc-4bd1-82b4-d45fb976791c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
 	(segment
 		(start 135.679795 75.604999)
