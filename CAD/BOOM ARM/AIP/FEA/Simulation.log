@@ -1,0 +1,52 @@
+﻿Study Static Analysis:1 started: 5/21/2025, 12:36:46 PM
+Number of configurations: 1
+Default mesh: 935 elements, 1781 nodes
+Study Static Analysis:1 failed. 5/21/2025, 12:36:46 PM
+Total time 0:00:00
+
+Study Static Analysis:1 started: 5/21/2025, 12:37:14 PM
+Number of configurations: 1
+Default mesh: 935 elements, 1781 nodes
+The deformation is large compared to the model size. Verify that load and constraint settings are appropriately scaled.
+Solution time 0.5s
+Convergence rate: 20.3%
+Reached the total number of h refinements 
+Study Static Analysis:1 finished: 5/21/2025, 12:37:15 PM
+Total time 0:00:01
+
+Study Static Analysis:1 started: 5/21/2025, 12:37:55 PM
+Number of configurations: 1
+Default mesh: 935 elements, 1781 nodes
+Solution time 0.5s
+Convergence rate: 1.39%
+Problem converged 
+Study Static Analysis:1 finished: 5/21/2025, 12:37:56 PM
+Total time 0:00:01
+
+Study Static Analysis:1 started: 5/21/2025, 12:38:32 PM
+Number of configurations: 1
+Default mesh: 963 elements, 1815 nodes
+Solution time 0.6s
+Convergence rate: 3.97%
+Problem converged 
+Study        Worst Jacobian ratio :  2.32  on element 136 finished: 5/21/2025, 12:38:33 PM
+Total time 0:00:01
+
+Study Static Analysis:1 started: 5/21/2025, 12:39:12 PM
+Number of configurations: 1
+Default mesh: 1137 elements, 2083 nodes
+Solution time 0.5s
+Convergence rate: 12.2%
+Reached the total number of h refinements 
+Study        Worst Jacobian ratio :  2.57  on element 576 finished: 5/21/2025, 12:39:13 PM
+Total time 0:00:01
+
+Study Static Analysis:1 started: 5/21/2025, 12:41:17 PM
+Number of configurations: 1
+Default mesh: 1137 elements, 2083 nodes
+Solution time 0.6s
+Convergence rate: 20%
+Reached the total number of h refinements 
+Study Static Analysis:1 finished: 5/21/2025, 12:41:18 PM
+Total time 0:00:01
+

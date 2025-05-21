@@ -4987,6 +4987,16 @@
 		)
 		(uuid "3492a7dd-3c75-4284-b0c8-d16bf1bdb4b3")
 	)
+	(text "in future revision, the PWM pins must go SIG POW GND"
+		(exclude_from_sim no)
+		(at 170.18 124.206 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e0424bba-ea34-49f4-90ab-c2b78783d254")
+	)
 	(global_label "LED_DEBUG_1"
 		(shape input)
 		(at 189.23 21.59 0)

@@ -2783,6 +2783,16 @@
 		)
 		(uuid "f877ebc6-651d-4d76-9087-7582b2d6c069")
 	)
+	(text "in future revision, the PWM pins must go SIG POW GND"
+		(exclude_from_sim no)
+		(at 35.306 71.374 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "07bb467b-1f22-47fa-a8ad-1e85b6a6bedf")
+	)
 	(text "MAGNOMETER"
 		(exclude_from_sim no)
 		(at 172.466 46.482 0)
@@ -2813,7 +2823,7 @@
 		)
 		(uuid "9e555130-2784-4c45-bce0-26e69152c4dc")
 	)
-	(text "Dont accept external power from the ESCs"
+	(text "Do accept external power from the ESCs"
 		(exclude_from_sim no)
 		(at 40.132 67.818 0)
 		(effects
